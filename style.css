@@ -1,0 +1,575 @@
+header{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background-color: antiquewhite;
+    height: 1000px;
+}
+
+  
+.burger {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.line {
+    margin-top: 20px;
+    height: 5px;
+    width: 50px;
+    background-color: #88d514;
+    margin: 5px 0;
+}
+
+.nav {
+    position: absolute;
+    display: none;
+    top: 30px; 
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.nav.active {
+    margin-top: 30px;
+    display: block;
+}
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav li {
+    list-style-type:none ;
+    padding: 10px 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #75af67;
+    display: block;
+}
+.search-container {
+position: absolute;
+    margin-top: 40px;
+    margin-left: 1500px;
+    position: relative;
+    width: 150px; 
+}
+
+.search-input {
+    margin-left: 180px;
+    margin-top: 20px;
+    position: absolute;
+    color: white;
+    background:  #88d514;
+    border-radius: 50%;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 0; 
+    font-size: 30px; 
+}
+.poisk{
+  
+    position: absolute;
+    margin-top: -6px;
+    margin-left: 320px
+}
+.poisk img{
+    filter: brightness(1.3);
+}
+
+.taste{
+    position: absolute;
+    z-index: 10;
+    margin-left: 30px;
+    margin-top: 240px;
+}
+.title{
+    filter: brightness(1.1);
+    position: absolute;
+    z-index: 10;
+    margin-left: 50px;
+    margin-top: 300px;
+}
+.made{
+    position: absolute;
+    z-index: 10;
+    margin-left: 55px;
+    margin-top: 400px;
+}
+.texti{
+    position: absolute;
+    z-index: 10;
+    margin-left: 55px;
+    margin-top: 440px;
+}
+.button{
+    position: absolute;
+    z-index: 10;
+    margin-left: 70px;
+    margin-top: 540px;
+}
+.bitton{
+    filter: brightness(1.1);
+    position: absolute;
+    z-index: 9;
+    margin-left: 55px;
+    margin-top: 530px;
+}
+.rostki{
+    position: absolute;
+    z-index: 2;
+    margin-left: 900px;
+    margin-top: 400px;
+}
+.rostki img{
+    filter: brightness(1.7);
+    transform: scaley(-1);
+    width: 45%;
+
+}
+.chainik{
+    position: absolute;
+    z-index: 9;
+    margin-left: 1705px;
+    margin-top: 700px;
+}
+.chaccentr{
+    position: absolute;
+    z-index: 9;
+    margin-left: 1690px;
+    margin-top: 900px;
+}
+.chacleft{
+    position: absolute;
+    z-index: 2;
+    margin-left: 700px;
+    margin-top: 200px;
+}
+.chacright{
+    position: absolute;
+    z-index: 2;
+    margin-left: 770px;
+    margin-top: 200px;
+}
+.fotoone{
+    position: absolute;
+    z-index: 2;
+    margin-left: 1200px;
+    margin-top: 300px;
+    
+}
+.fotoone img{
+    width: 100%;
+
+}
+.chainika{
+    transform: scaleX(-1);
+    position: absolute;
+    z-index: 9;
+    margin-left: 405px;
+    margin-top:700px;
+}
+.chainika img{
+    width: 200%;
+}
+.con{
+    margin-top: 1000px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(237, 210, 176);
+    height: 1000px;
+}
+.rostkii{
+    position: absolute;
+    z-index: 2;
+    margin-left: 160px;
+    margin-top: 700px;
+}
+.rostkii img{
+    
+    transform: scaley(-1);
+    filter: brightness(1.7);
+    width: 45%;
+}
+.two img{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 200px;
+     width: 24%;  
+     z-index: 10; 
+     height: 60vh;
+
+
+}
+.three img{
+    z-index: 10;
+    margin-top:200px;
+    position: absolute;
+    margin-left: 550px;
+     width: 24%;   
+     height: 60vh;
+}
+.chaccenter img{
+    width: 4%;
+    position: absolute;
+    z-index: 11;
+    margin-left: 580px;
+    margin-top: 86px;
+}
+.chacleftr{
+    position: absolute;
+    z-index: 11;
+    margin-left: 1380px;
+    margin-top: 86px;
+}
+.chacrightr{
+    position: absolute;
+    z-index: 11;
+    margin-left: 1280px;
+    margin-top: 86px;
+}
+.carlos{
+    position: absolute;
+    z-index: 11;
+    margin-left: 1240px;
+ 
+}
+ h1{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#88d514 ;
+    margin-left: -30px;
+    margin-top: 370px;  
+    font-size: 100px;
+}
+.parag h3{
+    color: #64931d;
+    font-size: large;
+    z-index: 10;
+    margin-left:1160px ;
+    margin-top: 500px;  
+}
+.rostkir{
+
+    margin-left: 1000px;
+    z-index: 5;
+}
+.rostkir img{
+    margin-left: 300px;
+    filter: brightness(1.7);
+    width: 60%;
+}
+
+.www{
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+    position: absolute;
+    margin-top: 1990px;
+ 
+}
+.www h1{
+    width: 150%;
+    margin-left: 100px;
+}
+.chaclefte img{
+    z-index: 1000;
+    position: absolute;
+    margin-top: 2300px;
+    margin-left: 300px;
+}
+.vid{
+    margin-left: 1000px;
+    position: absolute;
+    z-index: 1000;
+    margin-top:2300px;
+}
+  @media ( max-width:1360px) {
+    
+  }
+ 
+  @media ( max-width:430px) {
+    header{
+        position: absolute;
+        width: 1080px;
+        z-index: 1;
+        background-color: antiquewhite;
+        height: 1000px;
+    }
+    
+      
+    .burger {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        margin: 20px;
+    }
+    
+    .line {
+        margin-top: 20px;
+        height: 5px;
+        width: 50px;
+        background-color: #88d514;
+        margin: 5px 0;
+    }
+    
+    .nav {
+        position: absolute;
+        display: none;
+        top: 30px; 
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+    
+    .nav.active {
+        margin-top: 30px;
+        display: block;
+    }
+    .nav ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .nav li {
+        list-style-type:none ;
+        padding: 10px 20px;
+    }
+    
+    .nav a {
+        text-decoration: none;
+        color: #75af67;
+        display: block;
+    }
+    .search-container {
+    position: absolute;
+        margin-top: 40px;
+        margin-left: 700px;
+        position: relative;
+        width: 110px; 
+    }
+    
+    .search-input {
+        margin-left: 180px;
+        margin-top: 20px;
+        position: absolute;
+        color: white;
+        background:  #88d514;
+        border-radius: 50%;
+        width: 100%;
+        border: none;
+        outline: none;
+        padding: 10px 0; 
+        font-size: 30px; 
+    }
+    .poisk{
+      
+        position: absolute;
+        margin-top: -6px;
+        margin-left: 100px
+    }
+    .poisk img{
+        filter: brightness(1.3);
+    }
+    
+    .taste img{
+        width: 10px;
+        position: absolute;
+        z-index: 10;
+        margin-left: 30px;
+        margin-top: 240px;
+    }
+    .title{
+        filter: brightness(1.1);
+        position: absolute;
+        z-index: 10;
+        margin-left: 50px;
+        margin-top: 300px;
+    }
+    .made{
+        position: absolute;
+        z-index: 10;
+        margin-left: 55px;
+        margin-top: 400px;
+    }
+    .texti{
+        position: absolute;
+        z-index: 10;
+        margin-left: 55px;
+        margin-top: 440px;
+    }
+    .button{
+        position: absolute;
+        z-index: 10;
+        margin-left: 70px;
+        margin-top: 540px;
+    }
+    .bitton{
+        filter: brightness(1.1);
+        position: absolute;
+        z-index: 9;
+        margin-left: 55px;
+        margin-top: 530px;
+    }
+    .rostki{
+        position: absolute;
+        z-index: 2;
+        margin-left: 900px;
+        margin-top: 400px;
+    }
+ 
+    .chainik{
+        position: absolute;
+        z-index: 9;
+        margin-left: 395px;
+        margin-top: 100px;
+        width: 1000px;
+    }
+    .chaccentr{
+        position: absolute;
+        z-index: 9;
+        margin-left: 690px;
+        margin-top: 900px;
+    }
+    .chacleft{
+        position: absolute;
+        z-index: 2;
+        margin-left: 700px;
+        margin-top: 200px;
+    }
+    .chacright{
+        position: absolute;
+        z-index: 2;
+        margin-left: 70px;
+        margin-top: 200px;
+    }
+    .chainika{
+        transform: scaleX(-1);
+        position: absolute;
+        z-index: 9;
+        margin-left: 405px;
+        margin-top:1000px;
+    }
+    .chainika img{
+        width: 200px;
+    }
+    .con{
+        margin-top: 1000px;
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+        background-color: rgb(237, 210, 176);
+        height: 1000px;
+    }
+    .rostkii{
+        position: absolute;
+        z-index: 2;
+        margin-left: 160px;
+        margin-top: 700px;
+    }
+    .rostkii img{
+        
+        transform: scaley(-1);
+        filter: brightness(1.7);
+        width: 45%;
+    }
+    .two img{
+        position: absolute;
+        margin-left: 50px;
+        margin-top: 200px;
+         width: 24%;  
+         z-index: 10; 
+         height: 60vh;
+    
+    
+    }
+    .three img{
+        z-index: 10;
+        margin-top:200px;
+        position: absolute;
+        margin-left: 550px;
+         width: 24%;   
+         height: 60vh;
+    }
+    .chaccenter img{
+        width: 4%;
+        position: absolute;
+        z-index: 11;
+        margin-left: 580px;
+        margin-top: 86px;
+    }
+    .chacleftr{
+        position: absolute;
+        z-index: 11;
+        margin-left: 1380px;
+        margin-top: 86px;
+    }
+    .chacrightr{
+        position: absolute;
+        z-index: 11;
+        margin-left: 1280px;
+        margin-top: 86px;
+    }
+    .carlos{
+        position: absolute;
+        z-index: 11;
+        margin-left: 1240px;
+     
+    }
+     h1{
+        font-family:Arial, Helvetica, sans-serif;
+        color:#88d514 ;
+        margin-left: -30px;
+        margin-top: 370px;  
+        font-size: 100px;
+    }
+    .parag h3{
+        color: #64931d;
+        font-size: large;
+        z-index: 10;
+        margin-left:1160px ;
+        margin-top: 500px;  
+    }
+    .rostkir{
+    
+        margin-left: 1000px;
+        z-index: 5;
+    }
+    .rostkir img{
+        margin-left: 300px;
+        filter: brightness(1.7);
+        width: 60%;
+    }
+    
+    .www{
+        width: 100%;
+        height: 100vh;
+        background-color: antiquewhite;
+        position: absolute;
+        margin-top: 1990px;
+     
+    }
+    .www h1{
+        width: 150%;
+        margin-left: 100px;
+    }
+    .chaclefte img{
+        z-index: 1000;
+        position: absolute;
+        margin-top: 2300px;
+        margin-left: 300px;
+    }
+    .vid{
+        margin-left: 1000px;
+        position: absolute;
+        z-index: 1000;
+        margin-top:2300px;
+    }
+  }
+ 
